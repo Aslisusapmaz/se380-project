@@ -51,7 +51,7 @@ class _LoginPageState extends State<LoginPage> {
       onChange: (bool visible) {
         setState(() {
 _keyboardVisible=visible;
-print("Keyboard state is changed:$visible");
+print("Keyboard state changed:$visible");
         });
       },
     );
