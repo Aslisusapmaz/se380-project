@@ -139,7 +139,7 @@ print("Keyboard state changed:$visible");
                       margin: EdgeInsets.only(
                         top: 8
                       ),
-                      child: Text('Lets join us...',
+                      child: Text("Let's join us...",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Color(0xFFB40284A),
