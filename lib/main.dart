@@ -222,7 +222,7 @@ print("Keyboard state changed:$visible");
                             fontSize: 20
                         ),
                       ),
-
+    //Commit
                 ),
                       InputWithIcon(icon: Icons.email,
                         hint: "Enter email...",),
