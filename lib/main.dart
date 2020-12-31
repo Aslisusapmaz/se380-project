@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:keyboard_visibility/keyboard_visibility.dart';
 
+import 'custom_outline_button.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -237,7 +239,7 @@ print("Keyboard state changed:$visible");
                     SizedBox(
                       height: 8,
                     ),
-                    OutlineButton(
+                    CustomOutlineButton(
                       buttonText: "Create New Account",
                     ),
                   ],
@@ -296,7 +298,7 @@ print("Keyboard state changed:$visible");
                     SizedBox(
                       height: 8,
                     ),
-                    OutlineButton(
+                    CustomOutlineButton(
                       buttonText: "Back to Login",
                     ),
                   ],
@@ -387,33 +389,6 @@ class _PrimaryButtonState extends State<PrimaryButton> {
 
   }
 }
-class OutlineButton extends StatefulWidget {
-  final String buttonText;
-  OutlineButton({this.buttonText});
-  @override
-  _OutlineButtonState createState() => _OutlineButtonState();
-}
 
-class _OutlineButtonState extends State<OutlineButton> {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-          decoration: BoxDecoration(
-            color: Color(0xFFB40284A),
-            borderRadius: BorderRadius.circular(50),
-          ),
-          padding: EdgeInsets.all(20),
-          child: Center(
-            child:Text(
-              widget.buttonText,
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 16
-              ),),
-          ),
-        );
-
-  }
-}
 
 
