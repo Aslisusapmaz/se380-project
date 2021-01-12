@@ -11,7 +11,7 @@ class UserProfile extends StatelessWidget{
                   gradient: LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
-                    colors: [Colors.redAccent, Colors.pinkAccent],
+                //    colors: [Colors.redAccent, Colors.pinkAccent],
 
                   )
               ),
@@ -100,7 +100,7 @@ class UserProfile extends StatelessWidget{
                         gradient: LinearGradient(
                           begin: Alignment.centerLeft,
                           end: Alignment.centerRight,
-                          colors: [Colors.pinkAccent, Colors.redAccent],
+                         // colors: [Colors.pinkAccent, Colors.redAccent],
                         ),
                         borderRadius: BorderRadius.circular(30.0),
                       ),
