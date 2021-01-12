@@ -23,6 +23,7 @@ class _CustomOutlineButtonState extends State<CustomOutlineButton> {
               color: Colors.white,
               fontSize: 16
           ),),
+
       ),
     );
 
